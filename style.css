@@ -1,0 +1,24 @@
+body{
+    background-image: url(./imgs/Space-Background-Image-2-1536x1024.jpg);
+}
+
+.rocket-container{
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: left 0.5s, bottom 0.5s;
+}
+
+#bullet {
+    opacity: 0;
+    transform: translatey(100%);
+    transition: opacity 0.5s, bottom 0.5s ;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: opacity 0.5s, bottom 0.5s ;
+    -moz-transition: opacity 0.5s, bottom 0.5s ;
+    -ms-transition: opacity 0.5s, bottom 0.5s ;
+    -o-transition: opacity 0.5s, bottom 0.5s ;
+}
